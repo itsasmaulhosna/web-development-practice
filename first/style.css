@@ -1,0 +1,18 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #4c3333ff;
+  color: #d12929ff;
+}
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 20%;
+}
