@@ -1,0 +1,78 @@
+/* Large devices */
+@media screen and (max-width: 1199px) {
+  #hero-container {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
+/* Medium devices */
+@media screen and (max-width: 991px) {
+  #hero-container {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  #news-container {
+    padding: 80px 30px;
+  }
+}
+
+/* TAB devices */
+@media screen and (max-width: 767px) {
+  .hero-content h1 {
+    font-size: 35px;
+  }
+}
+
+/* Small devices */
+@media screen and (max-width: 575px) {
+  .hero-img img {
+    max-width: 300px;
+  }
+
+  #news-container h1 {
+    font-size: 20px;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 479px) {
+}
+
+/* Extra small devices */
+@media screen and (max-width: 375px) {
+}
+
+/* @media screen and (max-width: 1200px) {
+  .hero-img {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #hero-container {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  .hero-img {
+    width: 98%;
+  }
+  #hero-container {
+    padding: 10px;
+  }
+  #hero-container img {
+    max-width: 290px;
+  }
+  .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .shoes-box {
+    flex-direction: column;
+    align-items: center;
+  }
+} */
